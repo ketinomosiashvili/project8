@@ -1,0 +1,81 @@
+/* header */
+@media (max-width: 1170px) {
+    .nav-div {
+        display: none;
+    }
+    .nav-bar{
+        display: block;
+        margin-right: 5px;
+    }
+    h1{
+        margin-left: 5px;
+    }
+}
+/* section1 Ipad*/
+@media (max-width: 1170px) {
+    .section1{
+        margin-top: 50px;
+    }
+    .section-div {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .title{
+        font-size: 42px;
+        line-height: normal;
+    }
+    .first-img{
+        margin-top: 0px;
+        width: 320px;
+        height: 220px;
+        
+    }
+}
+/* section2 Ipad*/
+@media (max-width: 1170px) {
+    .section2-p {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .title-h3 {
+        font-size: 46px;
+    }
+    .block:nth-child(3){
+        margin-top: 0px;
+    }
+    .block:nth-child(4) {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+/* section1 phone */
+@media (max-width: 767px){
+    .first-img{
+        margin-top: 150px;
+        width: 300px;
+        height: 200px;
+    }
+}
+/* section2 phone */
+@media (max-width: 767px){
+    .section2-p {
+        font-size: 18px;
+    }
+    .block-p{
+        width: 260px;
+    }
+    .block { 
+        height: 420px;
+    }
+    .text2{
+        width: 85%;
+    }
+    .block:nth-child(2){
+        margin-top: 0px;
+    }
+    .block:nth-child(5) {
+        margin-bottom: 60px;
+    }
+}
